@@ -1,7 +1,11 @@
 import React from "react";
 
 const homePage = () => {
-  return <div>homePage</div>;
+  return (
+    <div className="flex flex-col items-center gap-9 w-[330px] my-16 xl:w-[1100px] xl:gap-16">
+      <div className="flex flex-col gap-9 xl:flex-row">homePage</div>
+    </div>
+  );
 };
 
 export default homePage;
