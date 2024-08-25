@@ -1,3 +1,5 @@
+import Comment from "@/components/comment/comment";
+import Rate from "@/components/rate";
 import React from "react";
 
 const mainPage = () => {
@@ -5,16 +7,18 @@ const mainPage = () => {
     <div className="flex flex-col items-center gap-9 w-[330px] my-16 xl:w-[1100px] xl:gap-16">
       <div className="flex flex-col gap-9 xl:flex-row">
         <div className="flex flex-col gap-6 text-center xl:text-start xl:gap-5 xl:w-1/2">
-          <h1 className="text-Very-Dark-Magenta font-bold text-[40px] leading-8 px-2 xl:pr-44 xl:px-0">
+          <h1 className="text-very-dark-magenta font-bold text-[40px] leading-8 px-2 xl:pr-44 xl:px-0">
             10,000+ of our users love our products.
           </h1>
-          <p className="text-Dark-Grayish-Magenta px-[18px] xl:px-0 xl:pr-36">
+          <p className="text-dark-grayish-magenta px-[18px] xl:px-0 xl:pr-36">
             We only provide great products combined with excellent customer
             service. See what our satisfied customers are saying about our
             services.
           </p>
         </div>
+        <Rate />
       </div>
+      <Comment />
     </div>
   );
 };
