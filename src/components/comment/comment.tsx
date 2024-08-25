@@ -7,12 +7,10 @@ const Comment = () => {
       {/* Comment Colton Smith*/}
       <div className="flex flex-col gap-6 bg-very-dark-magenta rounded-lg text-white p-9 xl:self-start">
         <div className="flex items-center gap-5">
-          <Image
+          <img
             src={"/images/image-colton.jpg"}
             alt=""
             className="w-12 rounded-full"
-            width={12}
-            height={12}
           />
           <div>
             <h3 className="font-bold">Colton Smith</h3>
@@ -29,12 +27,10 @@ const Comment = () => {
       {/* Comment Irene Roberts */}
       <div className="flex flex-col gap-6 bg-very-dark-magenta rounded-lg text-white p-9 xl:self-center">
         <div className="flex items-center gap-5">
-          <Image
+          <img
             src={"/images/image-irene.jpg"}
             alt=""
             className="w-12 rounded-full"
-            width={12}
-            height={12}
           />
           <div>
             <h3 className="font-bold">Irene Roberts</h3>
@@ -51,12 +47,10 @@ const Comment = () => {
       {/* Comment Anne Wallace */}
       <div className="flex flex-col gap-6 bg-very-dark-magenta rounded-lg text-white p-9 xl:self-end">
         <div className="flex items-center gap-5">
-          <Image
-            src={"/images/image-anne.jpg"}
+          <img
+            src={"images/image-anne.jpg"}
             alt=""
             className="w-12 rounded-full"
-            width={12}
-            height={12}
           />
           <div>
             <h3 className="font-bold">Anne Wallace</h3>
